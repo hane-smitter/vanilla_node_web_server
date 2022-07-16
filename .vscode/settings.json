@@ -4,6 +4,25 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.defaultLanguage": "${activeEditorLanguage}",
   "[markdown]": {
-    "files.trimTrailingWhitespace": false
+    // No trim trailing white spaces(Two+ trailing whitespaces in MD is like <br />)
+    "files.trimTrailingWhitespace": false,
+    // Auto save
+    "editor.formatOnSave": false,
+    // Show space
+    "editor.renderWhitespace": "all",
+    // Suggestions should automatically show up while typing
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    // Show snippet suggestions on top of other suggestions
+    "editor.snippetSuggestions": "top",
+    // Tab key inserts best matching suggestion
+    "editor.tabCompletion": "on",
+    // Whether suggestions should be accepted also on Enter key
+    "editor.acceptSuggestionOnEnter": "on",
+    // Default formatter in MD files
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
