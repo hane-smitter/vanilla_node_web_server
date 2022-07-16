@@ -1,0 +1,12 @@
+Version 1.0.0
+By Zacky Aduoli
+Website: https://lookupzach.netlify.app
+
+The operating system used in the developement of this project is "Debian 5.16.18-1kali1 (2022-04-01) x86_64 GNU/Linux"
+This project is built using Nodejs.
+Node.js version used is "v16.15.0".
+
+Instructions on how to run this project can be found in the "README.md" file located at the root of this project.
+Instructions on this file(README.md) also outline how you can generate data for your database with one-line commandline script.
+As of now, there is no need to generate another dummy data as the credentials provided for Mongodb Atlas database already have some data you can begin to test the API with.
+The database credentials loaded for this application may be found at the root of this application in a JSON file(creds.json). You may change it according to your needs.

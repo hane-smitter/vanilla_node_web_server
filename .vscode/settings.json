@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.defaultLanguage": "${activeEditorLanguage}",
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  }
+}
